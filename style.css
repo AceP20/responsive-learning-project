@@ -2,9 +2,40 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 header {
+    /* position */
     display: flex;
-    flex-direction: row;
+    align-items: center;
+}
+
+i {
+    padding-right: .25em;
+}
+
+h1 {
+    font-size: 1.125rem;
+}
+
+nav {
+    margin: 0 .5rem 0 auto;
+}
+
+nav a{
+    /* position */
+    padding: 0 .25em;
+
+    /* styling */
+    text-decoration: underline;
+    color: inherit;
+    font-weight: 600;
+}
+
+.main-article{
+
+    /* styling */
+    background-image: url(images/responsive-img1.avif);
+    background-size: cover;
 }
