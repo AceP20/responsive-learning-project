@@ -139,3 +139,15 @@ main article img{
     /* styling */
     font-weight: bold;
 }
+
+
+/* About-me page */
+
+.profile-picture {
+    width: 125px;
+    height: 125px;
+    margin-left: 1em;
+
+    /* styling */
+    border-radius: 50%;
+}
