@@ -151,3 +151,23 @@ main article img{
     /* styling */
     border-radius: 50%;
 }
+
+
+/* Media quieries
+
+@media (min-width: 500px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .intro-section {
+        display: block;
+    }
+
+    .other-articles {
+        flex-basis: 33%;
+    }
+} */
+
